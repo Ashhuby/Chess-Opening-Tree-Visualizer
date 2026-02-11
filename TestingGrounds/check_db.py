@@ -2,7 +2,7 @@ import sqlite3
 import json
 from pathlib import Path
 
-db_path = Path('opening_theory.db')
+db_path = Path('../opening_theory.db')
 
 if not db_path.exists():
     print(f"****Database not found at {db_path.absolute()}")
